@@ -22,7 +22,7 @@ public class Main {
             switch (pilih) {
                 case 1:
                     System.out.println("masukkan pekerjaan");
-                    queue.enqueue(input.next());
+                    queue.enqueue(input.nextLine());
                     break;
                 case 2:
                     queue.printQueue();
